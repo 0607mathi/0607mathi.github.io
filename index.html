@@ -1,0 +1,526 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <!-- font awsome cdn link -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+      <title>portfolio</title>
+      <link rel="icon" type="image/x-icon" href="/assets/images/1-removebg-preview.png">
+      <!-- stylesheet -->
+      <link rel="stylesheet" href="/assets/style/style.css">
+      <!-- AOS CDN -->
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+      <!-- google fonts -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&family=Tangerine:wght@700&display=swap" rel="stylesheet">
+   </head>
+   <body>
+      <!-- navigation bar -->
+      <nav class="navbar navbar-expand-lg">
+         <!-- logo and name -->
+         <a class="navbar-brand logo-name " href="#">
+            <div class="row pl name">
+               <div class="col col-md-1 logo-name fw-bold text-capitalised text-center d-flex">
+                  M<span class="delay2">a</span>
+                  th<span class="delay5">i</span>
+                  yara<span class="delay11">su</span>
+               </div>
+            </div>
+         </a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+         <i class="bi bi-list"></i>
+         </button>
+         <!-- nav-bar [home about .....] -->
+         <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav d-flex justify-content-around">
+               <li class="nav-item text-center">
+                  <a href="#" class="text-decoration-none ancher justify-content-center " style="font-weight: 500; font-family: 'Poppins', sans-serif;">
+                     <i class="bi bi-house text-warning"></i>
+                     <div>Home</div>
+                  </a>
+               </li>
+               <li class="nav-item">
+                  <a href="#About-section" class="text-decoration-none ancher justify-content-center " style="font-weight: 500; font-family: 'Poppins', sans-serif;">
+                     <i class="bi bi-person-lines-fill text-warning"></i>
+                     <div>About</div>
+                  </a>
+               </li>
+               <li class="nav-item">
+                  <a href="#Resume-section" class="text-decoration-none ancher justify-content-center " style="font-weight: 500; font-family: 'Poppins', sans-serif;">
+                     <i class="bi bi-journal-text text-warning"></i>
+                     <div>Resume</div>
+                  </a>
+               </li>
+               <li class="nav-item">
+                  <a href="#Services-section" class="text-decoration-none ancher justify-content-center " style="font-weight: 500; font-family: 'Poppins', sans-serif;">
+                     <i class="bi bi-gear text-warning"></i>
+                     <div>Services</div>
+                  </a>
+               </li>
+               <li class="nav-item">
+                  <a href="#Skills-section" class="text-decoration-none ancher justify-content-center " style="font-weight: 500; font-family: 'Poppins', sans-serif;">
+                     <i class="bi bi-lightning-charge text-warning"></i>
+                     <div>Skills</div>
+                  </a>
+               </li>
+               <li class="nav-item">
+                  <a href="#Project-section" class="text-decoration-none ancher justify-content-center " style="font-weight: 500; font-family: 'Poppins', sans-serif;">
+                     <i class="bi bi-hdd-stack text-warning"></i>
+                     <div>Project</div>
+                  </a>
+               </li>
+               <li class="nav-item">
+                  <a href="#Contact-section" class="text-decoration-none ancher justify-content-center " style="font-weight: 500; font-family: 'Poppins', sans-serif;">
+                     <i class="bi bi-telephone text-warning"></i>
+                     <div>Contact</div>
+                  </a>
+               </li>
+            </ul>
+            <!-- search box -->
+            <form class="form-inline my-2 my-lg-0 justify-content-center">
+               <input class="form-control mr-sm-2" style="font-family: 'Poppins', sans-serif;" type="search" placeholder="Search" aria-label="Search">
+               <button class="btn btn-outline-warning my-2 my-sm-0" style="font-weight: 600; font-family: 'Poppins', sans-serif;" type="submit">Search</button>
+            </form>
+         </div>
+      </nav>
+      <!-- navigation and head sectition end -->
+      <!-- page content -->
+      <div class="container img-slider p-2" id="Home-section" >
+         <div class="mini-dsc pt-5 pt-lg-4 pt-md-3 pt-sm-2 pb-5 pb-lg-4 pb-md-3  rounded">
+            <!-- mini-discription -->
+            <!-- web Developer -->
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+               <div class="carousel-inner p-5">
+                  <div class="carousel-item active">
+                     <div class="col col-10 col-sm-10 col-md-9 col-xs-12 mt-5 mt-lg-4 mt-md-3 mb-5 mb-lg-4 mb-md-3">
+                        <div class="discription">
+                           <h6 class="text-uppercase text-warning">Hello !</h6>
+                           <h4 class="display-3 fw-bold">
+                              <div class="d-flex">
+                                 I'm a 
+                                 <div class="text-warning ml-3">web</div>
+                              </div>
+                              <div class="d-flex">
+                                 <div class="text-warning mr-3">Developer!</div>
+                                 based
+                              </div>
+                              <div>in India</div>
+                           </h4>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- java developer -->
+                  <div class="carousel-item">
+                     <div class="col col-10 col-sm-10 col-md-9 col-xs-12 mt-5 mt-lg-4 mt-md-3 mb-5 mb-lg-4 mb-md-3">
+                        <div class="discription">
+                           <h6 class="text-uppercase text-warning">Hello !</h6>
+                           <h4 class="display-3 fw-bold">
+                              <div class="d-flex">
+                                 I'm a 
+                                 <div class="text-warning ml-3 ">Java</div>
+                              </div>
+                              <div class="d-flex">
+                                 <div class="text-warning mr-3 ">Developer!</div>
+                                 based
+                              </div>
+                              <div>in India</div>
+                           </h4>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- freelancer -->
+                  <div class="carousel-item">
+                     <div class="col col-10 col-sm-10 col-md-9 col-xs-12 mt-5 mt-lg-4 mt-md-3 mt-sm-2 mt-xs-0 mb-5 mb-lg-4 mb-md-3 mb-sm-2 mb-xs-0">
+                        <div class="discription">
+                           <h6 class="text-uppercase text-warning">Hello !</h6>
+                           <h4 class="display-3 fw-bold">
+                              <div class="d-flex">I'm a 
+                              </div>
+                              <div class="d-flex">
+                                 <div class="text-warning mr-3 ">Freelancer</div>
+                              </div>
+                              <div><br></div>
+                           </h4>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- About me -->
+      <div class="container about mt-5 pt-5 rounded box" id="About-section">
+         <div class="row text-center about-me mt-3"  data-aos="fade-up" data-aos-easing="linear" data-aos-duration="700" data-aos-once="true">
+            <div class="col container-title"><span class="text-warning">About</span> <span>me</span></div>
+         </div>
+         <p class="gray mt-4 text-center" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="700" data-aos-once="true">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+         <table class="table table-borderless mt-5" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="700" data-aos-once="true">
+            <tr>
+               <th scope="col" class="col-xs-4 col-sm-3 col-md-2">Name :</th>
+               <td class="gray col col-9">Mathiayarsu M</td>
+            </tr>
+            <tr>
+               <th scope="col" class="col-xs-4 col-sm-3 col-md-2">Date of birth :</th>
+               <td class="gray col col-9">Semptember 09, 2002</td>
+            </tr>
+            <tr>
+               <th scope="col" class="col-xs-4 col-sm-3 col-md-2">Address:</th>
+               <td class="gray col col-9">Salem Tamilnadu India </td>
+            </tr>
+            <tr>
+               <th scope="col" class="col-xs-4 col-sm-3 col-md-2">Zip code:</th>
+               <td class="gray col col-9">636309</td>
+            </tr>
+            <tr>
+               <th scope="col" class="col-xs-4 col-sm-3 col-md-2">Email :</th>
+               <td class="gray col col-9">mathiayarsu.m0607@gmail.com</td>
+            </tr>
+            <tr>
+               <th scope="col" class="col-xs-4 col-sm-3 col-md-2">Phone :</th>
+               <td class="gray col col-9">+91 8248477166</td>
+            </tr>
+         </table>
+         <!-- project completion -->
+         <div class="mt-5 text-capitalised text-center project-completion d-flex justify-content-center" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="700" data-aos-once="true">
+            <p class="text-warning">08</p>
+            <p>Project complete</p>
+         </div>
+         <!-- cv button -->
+         <div class="row mb-5" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="700" data-aos-once="true">
+            <div class="col">
+               <center>
+                  <div class="btn btn-outline-warning btn-smaller text-uppercase cv-btn"><a href="#">download cv</a></div>
+               </center>
+            </div>
+         </div>
+      </div>
+      <!-- Resume -->
+      <div class="container Resume mt-5 pt-5 box" id="Resume-section">
+         <div class="row mt-3" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="700" data-aos-once="true">
+            <div class="col container-title text-center">resume</div>
+         </div>
+         <div class="row justify-content-around align-item-center">
+            <!-- right -->
+            <div class="col-md-5 p-3 mt-3 mt-md-5 resume-content content consensus rounded" data-aos="fade-up" data-aos-delay="200"  data-aos-easing="linear" data-aos-duration="700" data-aos-once="true">
+               <p class="year text-warning">2023-2024</p>
+               <img src="consensus-removebg-preview.png" class="img-fluid rounded" alt="">
+               <p class="university"><span class="text-warning">I am</span> a trained fresher</p>
+               <p class="about-dep">"I have learned and successfully completed Java fundamentals and data structures at the Consensus Academy during the year 2023-2024."</p>
+            </div>
+            <!-- left -->
+            <div class="col-md-5 p-3 mt-3 mt-md-5 resume-content content mec rounded" data-aos="fade-up" data-aos-delay="250"  data-aos-easing="linear" data-aos-duration="700" data-aos-once="true">
+               <p class="year text-warning">2020-2024</p>
+               <p class="college-name">muthayammal engineering college</p>
+               <p class="university"><span class="text-warning">anna</span> university</p>
+               <p class="about-dep">"I have successfully completed my Bachelor of Technology (BTech) degree in the Information Technology (IT) field and am now ready to pursue a professional career in this dynamic and ever-evolving industry."</p>
+            </div>
+            <!-- right -->
+            <div class="col-md-5 p-3 mt-3 mt-md-5 resume-content content kmhss-12 rounded" data-aos="fade-up" data-aos-delay="200"  data-aos-easing="linear" data-aos-duration="700" data-aos-once="true">
+               <p class="year text-warning">2019-2020</p>
+               <p class="college-name">kalaimagal Matric higher secondary school</p>
+               <p class="university"><span class="text-warning">state</span> board</p>
+               <p class="about-dep">"In 2020, I graduated from the 12th grade with excellent marks, showcasing my strong academic performance."</p>
+            </div>
+            <!-- left -->
+            <div class="col-md-5 p-3 mt-3 mt-md-5 resume-content content kmhss-10 rounded" data-aos="fade-up" data-aos-delay="250"  data-aos-easing="linear" data-aos-duration="700" data-aos-once="true">
+               <p class="year text-warning">2017-2018</p>
+               <p class="college-name">kalaimagal Matric higher secondary school</p>
+               <p class="university"><span class="text-warning">state</span> board</p>
+               <p class="about-dep">"I completed my 10th standard with excellent marks in the year 2018, demonstrating a strong academic foundation."</p>
+            </div>
+         </div>
+         <!-- cv button -->
+         <div class="row mt-5 mb-2" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="700" data-aos-once="true">
+            <div class="col">
+               <center>
+                  <div class="btn btn-outline-warning btn-smaller text-uppercase cv-btn"><a href="#">download Resume</a></div>
+               </center>
+            </div>
+         </div>
+      </div>
+      <!-- services -->
+      <div class="container mt-5 pt-5 box" id="Services-section">
+         <div class="row text-center mt-3" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="700" data-aos-once="true">
+            <div class="col container-title">Services</div>
+         </div>
+         <div class="row mt-4 justify-content-center align-item-center">
+            <div class="col col-10 col-md-3 p-5 m-4 services d-flex flex-column rounded" data-aos="fade-up" data-aos-delay="200" data-aos-easing="linear" data-aos-duration="700" data-aos-once="true">
+               <i class="fa-brands fa-java"></i>
+               <p class="mt-2">java Developer</p>
+            </div>
+            <div class="col col-10 col-md-3 p-5 m-4 services d-flex flex-column rounded" data-aos="fade-up" data-aos-delay="250"  data-aos-easing="linear" data-aos-duration="700" data-aos-once="true">
+               <i class="fa-solid fa-pager"></i>
+               <p class="mt-2">Web Design</p>
+            </div>
+            <div class="col col-10 col-md-3 p-5 m-4 services d-flex flex-column rounded" data-aos="fade-up" data-aos-delay="300"  data-aos-easing="linear" data-aos-duration="700" data-aos-once="true">
+               <div class="d-flex flex-row jjsc"><i class="fa-brands fa-html5"></i><i class="fa-brands fa-css3"></i><i class="fa-brands fa-square-js"></i></div>
+               <p class="mt-2 text-center">Web<br>Developement</p>
+            </div>
+            <div class="col col-10 col-md-3 p-5 m-4 services d-flex flex-column rounded" data-aos="fade-up" data-aos-delay="200"  data-aos-easing="linear" data-aos-duration="700" data-aos-once="true">
+               <i class="fa-solid fa-gamepad"></i>
+               <p class="mt-2 text-center">Application <br> Developement</p>
+            </div>
+            <div class="col col-10 col-md-3 p-5 m-4 services d-flex flex-column rounded" data-aos="fade-up" data-aos-delay="250"  data-aos-easing="linear" data-aos-duration="700" data-aos-once="true">
+               <i class="fa-solid fa-photo-film"></i>
+               <p class="mt-2">Photography</p>
+            </div>
+            <div class="col col-10 col-md-3 p-5 m-4 services d-flex flex-column rounded" data-aos="fade-up" data-aos-delay="300"  data-aos-easing="linear" data-aos-duration="700" data-aos-once="true">
+               <i class="fa-brands fa-figma"></i>
+               <p class="mt-2">UI/UX Design</p>
+            </div>
+         </div>
+      </div>
+      <!-- skills -->
+      <div class="container mt-5 pt-5 box" id="Skills-section">
+         <div class="row text-center mt-3" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="700" data-aos-once="true">
+            <div class="col container-title">Skills</div>
+         </div>
+         <div class="row mt-3">
+            <div class="col col-12 mt-4 col-md-6" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="700" data-aos-once="true">
+               <div>
+                  <div class="d-flex justify-content-between mb-1 ">
+                     <h5>Java</h5>
+                     <h5>65%</h5>
+                  </div>
+                  <div class="progress">
+                     <div class="progress-bar bg-warning rounded" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+               </div>
+            </div>
+            <div class="col col-12 mt-4 col-md-6" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="700" data-aos-once="true">
+               <div>
+                  <div class="d-flex justify-content-between mb-1">
+                     <h5>UI/UX Design</h5>
+                     <h5>50%</h5>
+                  </div>
+                  <div class="progress">
+                     <div class="progress-bar bg-warning rounded " role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+               </div>
+            </div>
+            <div class="col col-12 mt-4 col-md-6" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="700" data-aos-once="true">
+               <div>
+                  <div class="d-flex justify-content-between mb-1">
+                     <h5>HTML5</h5>
+                     <h5>90%</h5>
+                  </div>
+                  <div class="progress">
+                     <div class="progress-bar bg-warning rounded" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+               </div>
+            </div>
+            <div class="col col-12 mt-4 col-md-6" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="700" data-aos-once="true">
+               <div>
+                  <div class="d-flex justify-content-between mb-1">
+                     <h5>CSS3</h5>
+                     <h5>70%</h5>
+                  </div>
+                  <div class="progress">
+                     <div class="progress-bar bg-warning rounded" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+               </div>
+            </div>
+            <div class="col col-12 mt-4 col-md-6" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="700" data-aos-once="true">
+               <div>
+                  <div class="d-flex justify-content-between mb-1">
+                     <h5>java Script</h5>
+                     <h5>50%</h5>
+                  </div>
+                  <div class="progress">
+                     <div class="progress-bar bg-warning rounded" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+               </div>
+            </div>
+            <div class="col col-12 mt-4 col-md-6" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="700" data-aos-once="true">
+               <div>
+                  <div class="d-flex justify-content-between mb-1">
+                     <h5>Bootstrap</h5>
+                     <h5>80%</h5>
+                  </div>
+                  <div class="progress">
+                     <div class="progress-bar bg-warning rounded" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Projects -->
+      <div class="container mt-5 pt-5 box our-projects" id="Project-section">
+         <div class="row text-center mt-3" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="700" data-aos-once="true">
+            <div class="col container-title"><span class="text-warning">Our</span> Projects</div>
+         </div>
+         <div class="row justify-content-around">
+            <div class="col col-11 col-md-5 mt-5 d-flex flex-column align-items-center pro-bg-color rounded" data-aos="fade-up" data-aos-delay="200"  data-aos-easing="linear" data-aos-duration="700" data-aos-once="true">
+               <a href="https://0607mathi.github.io/whatsapp-clone/" class=" pt-3 pro-flex">
+                  <img src="/assets/images/whatsapp-web-clone.png" class="img-fluid rounded" alt="whatsapp-clone">
+                  <h5><span class="text-warning">Whatsapp</span> Web Clone</h5>
+               </a>
+            </div>
+            <div class="col col-11 col-md-5 mt-5 d-flex flex-column align-items-center pro-bg-color rounded" data-aos="fade-up" data-aos-delay="250"  data-aos-easing="linear" data-aos-duration="700" data-aos-once="true">
+               <a href="https://0607mathi.github.io/cgpa-calculator/" class="pro-flex pt-3">
+                  <img src="/assets/images/mec-cgpa-calculator.png" class="img-fluid rounded" alt="MEC CGPA">
+                  <h5><span class="text-warning">CGPA</span> Calculator</h5>
+               </a>
+            </div>
+            <div class="col col-11 col-md-5 mt-5 d-flex flex-column align-items-center pro-bg-color rounded" data-aos="fade-up" data-aos-delay="200"  data-aos-easing="linear" data-aos-duration="700" data-aos-once="true">
+               <a href="https://0607mathi.github.io/calculator/" class="pro-flex pt-3">
+                  <img src="/assets/images/claculator.png" class="img-fluid rounded" alt="normal calculator">
+                  <h5><span class="text-warning">Mathematic</span> calculator</h5>
+               </a>
+            </div>
+            <div class="col col-11 col-md-5 mt-5 d-flex flex-column align-items-center pro-bg-color rounded" data-aos="fade-up" data-aos-delay="250"  data-aos-easing="linear" data-aos-duration="700" data-aos-once="true">
+               <a href="https://0607mathi.github.io/Essay-Words-Counter/" class="pro-flex pt-3">
+                  <img src="/assets/images/word count.png" class="img-fluid rounded" alt="word counter">
+                  <h5><span class="text-warning">Essay</span> writting pad</h5>
+               </a>
+            </div>
+            <div class="col col-11 col-md-5 mt-5 d-flex flex-column align-items-center pro-bg-color rounded" data-aos="fade-up" data-aos-delay="200"  data-aos-easing="linear" data-aos-duration="700" data-aos-once="true">
+               <a href="https://0607mathi.github.io/bomb-defuse/" class="pro-flex pt-3">
+                  <img src="/assets/images/bomb-defuse.png" class="img-fluid rounded" alt="bomb-defuse">
+                  <h5><span class="text-warning">Bomb</span> Defuse Game</h5>
+               </a>
+            </div>
+            <div class="col col-11 col-md-5 mt-5 d-flex flex-column align-items-center pro-bg-color rounded" data-aos="fade-up" data-aos-delay="250"  data-aos-easing="linear" data-aos-duration="700" data-aos-once="true">
+               <a href="https://0607mathi.github.io/Dancing-Robot/" class="pro-flex pt-3">
+                  <img src="/assets/images/dancing-robot.png" class="img-fluid rounded" alt="dancing-robot">
+                  <h5><span class="text-warning">Dancing</span> Robot</h5>
+               </a>
+            </div>
+            <div class="col col-11 col-md-5 mt-5 d-flex flex-column align-items-center pro-bg-color rounded" data-aos="fade-up" data-aos-delay="200"  data-aos-easing="linear" data-aos-duration="700" data-aos-once="true">
+               <a href="https://github.com/0607mathi/BooksDB.git" class="pro-flex pt-3">
+                  <img src="https://img.etimg.com/thumb/width-1200,height-900,imgsize-114910,resizemode-75,msid-101984613/top-trending-products/books/best-science-books-unlock-wonders-of-science-and-expand-your-knowledge.jpg" class="img-fluid rounded" alt="Books store">
+                  <h5><span class="text-warning">Books</span> Store</h5>
+               </a>
+            </div>
+            <div class="col col-11 col-md-5 mt-5 d-flex flex-column align-items-center pro-bg-color rounded" data-aos="fade-up" data-aos-delay="250"  data-aos-easing="linear" data-aos-duration="700" data-aos-once="true">
+               <a href="https://github.com/0607mathi/JDBC_DepartmentStore.git" class="pro-flex pt-3">
+                  <img src="https://www.marketingtutor.net/wp-content/uploads/2019/11/departmental-store-everything-you-want-to-know.jpg" class="img-fluid rounded" alt="Departmental store">
+                  <h5><span class="text-warning">Departmental</span> Store</h5>
+               </a>
+            </div>
+         </div>
+      </div>
+      <!-- Avaiable page -->
+      <div class="container-fluid  text-center mt-5 p-5 hire-me rounded">
+         <div class="row p-3 mt-5" data-aos="zoom-out" data-aos-easing="linear" data-aos-duration="700" data-aos-once="true">
+            <div class="col container-title">I'm <span class="text-warning">Available</span> for freelancing</div>
+         </div>
+         <p class="gray" data-aos="zoom-out" data-aos-easing="linear" data-aos-duration="700" data-aos-once="true">I am prepared to work with your organization and also available for freelancing.</p>
+         <div class="row" data-aos="zoom-out" data-aos-easing="linear" data-aos-duration="700" data-aos-once="true">
+            <div class="col">
+               <center>
+                  <div class="btn btn-outline-warning btn-smaller text-uppercase cv-btn"><a href="#">Hire me</a></div>
+               </center>
+            </div>
+         </div>
+      </div>
+      <!-- contacts -->
+      <div class="container mt-5 pt-5" id="Contact-section">
+         <div class="row text-center" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="700" data-aos-once="true">
+            <div class="col container-title mt-5"><span class="text-warning">Contact</span> Me</div>
+         </div>
+         <div class="row address text-center contact-me justify-content-center p-3">
+            <div class="col col-12 col-md-5 text-center rounded m-4 p-5" data-aos="fade-up" data-aos-delay="200"  data-aos-easing="linear" data-aos-duration="700" data-aos-once="true">
+               <a href="https://maps.app.goo.gl/EJ5xv1Wf6sG41hHTA" class="d-flex flex-column">
+                  <i class="fa-regular fa-address-card"></i>
+                  <h5>Address</h5>
+                  <p class="gray">Salem Tamilnadu India 636309</p>
+               </a>
+            </div>
+            <div class="col col-12 col-md-5 text-center rounded m-4 p-5" data-aos="fade-up" data-aos-delay="250"  data-aos-easing="linear" data-aos-duration="700" data-aos-once="true">
+               <a href="tel:+918248477166" class="d-flex flex-column">
+                  <i class="fa-solid fa-phone"></i>
+                  <h5>Contact me</h5>
+                  <p class="gray">+91 8248477166</p>
+               </a>
+            </div>
+            <div class="col col-12 col-md-5 text-center rounded m-4 p-5" data-aos="fade-up" data-aos-delay="200"  data-aos-easing="linear" data-aos-duration="700" data-aos-once="true">
+               <a href="mathiyarasu.m0607@gmail.com" class="d-flex flex-column">
+                  <i class="fa-solid fa-paper-plane"></i>
+                  <h5>Email address</h5>
+                  <p class="gray">mathiyarasu.m0607@gmail.com</p>
+               </a>
+            </div>
+            <div class="col col-12 col-md-5 text-center rounded m-4 p-5" data-aos="fade-up" data-aos-delay="250"  data-aos-easing="linear" data-aos-duration="700" data-aos-once="true">
+               <a href="https://www.linkedin.com/in/mathiyarasu0607/" class="d-flex flex-column">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                  <h5>Linked in</h5>
+                  <p class="gray">Mathiyarasu M</p>
+               </a>
+            </div>
+            <div class="col col-12 col-md-5 text-center rounded m-4 p-5" data-aos="fade-up" data-aos-delay="200"  data-aos-easing="linear" data-aos-duration="700" data-aos-once="true">
+               <a href="https://github.com/0607mathi" class="d-flex flex-column">
+                  <i class="fa-brands fa-square-github"></i>
+                  <h5>Git hub</h5>
+                  <p class="gray">0607mathi</p>
+               </a>
+            </div>
+            <div class="col col-12 col-md-5 text-center rounded m-4 p-5" data-aos="fade-up" data-aos-delay="250"  data-aos-easing="linear" data-aos-duration="700" data-aos-once="true">
+               <a href="https://instagram.com/0607_mathi?igshid=MzNlNGNkZWQ4Mg==" class="d-flex flex-column">
+                  <i class="fa-brands fa-instagram"></i>
+                  <h5>Instagram</h5>
+                  <p class="gray">0607_mathi</p>
+               </a>
+            </div>
+         </div>
+      </div>
+      <!-- links -->
+      <div class="container links mt-5" id="Contact-section">
+         <div class="row mt-5">
+            <div class="col col-12 col-md-4" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="700" data-aos-once="true">
+               <ul>
+                  <div class="heading h3 mb-4">Links</div>
+                  <li class="gray m-2 d-flex "><span><i class="bi bi-arrow-right-short"></i></span> <a href="#" class="gray link ani">Home</a></li>
+                  <li class="gray m-2 d-flex"><span><i class="bi bi-arrow-right-short"></i></span> <a href="#About-section" class="gray link ani">About</a></li>
+                  <li class="gray m-2 d-flex"><span><i class="bi bi-arrow-right-short"></i></span> <a href="#Resume-section" class="gray link ani">Resume</a></li>
+                  <li class="gray m-2 d-flex"><span><i class="bi bi-arrow-right-short"></i></span> <a href="#Services-section" class="gray link ani">Services</a></li>
+                  <li class="gray m-2 d-flex"><span><i class="bi bi-arrow-right-short"></i></span> <a href="#Skills-section" class="gray link ani">Skills</a></li>
+                  <li class="gray m-2 d-flex"><span><i class="bi bi-arrow-right-short"></i></span> <a href="#Project-section" class="gray link ani">Projects</a></li>
+                  <li class="gray m-2 d-flex"><span><i class="bi bi-arrow-right-short"></i></span> <a href="#Contact-section" class="gray link ani">Contacts</a></li>
+               </ul>
+            </div>
+            <div class="col col-12 col-md-4" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="700" data-aos-once="true">
+               <ul>
+                  <div class="heading h3 mb-4">Services</div>
+                  <li class="gray m-2 d-flex"><span><i class="bi bi-arrow-right-short"></i></span> <a href="#Services-section" class="gray link ani">Java Developer</a></li>
+                  <li class="gray m-2 d-flex"><span><i class="bi bi-arrow-right-short"></i></span> <a href="#Services-section" class="gray link ani">Web Design</a></li>
+                  <li class="gray m-2 d-flex"><span><i class="bi bi-arrow-right-short"></i></span> <a href="#Services-section" class="gray link ani">Web Developement</a></li>
+                  <li class="gray m-2 d-flex"><span><i class="bi bi-arrow-right-short"></i></span> <a href="#Services-section" class="gray link ani">Application Developement</a></li>
+                  <li class="gray m-2 d-flex"><span><i class="bi bi-arrow-right-short"></i></span> <a href="#Services-section" class="gray link ani">Photography</a></li>
+                  <li class="gray m-2 d-flex"><span><i class="bi bi-arrow-right-short"></i></span> <a href="#Services-section" class="gray link ani">UI/UX Design</a></li>
+               </ul>
+            </div>
+            <div class="col col-12 col-md-4" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="700" data-aos-once="true">
+               <ul>
+                  <div class="heading h3 mb-4"><span class="text-warning">Have</span> a Questions?</div>
+                  <li class="gray m-2 d-flex"><span><i class="fa-solid fa-location-dot text-warning"></i></span> <a href="https://maps.app.goo.gl/EJ5xv1Wf6sG41hHTA" class="gray link">Salem Tamilnadu India 636309</a></li>
+                  <li class="gray m-2 d-flex"><span><i class="fa-solid fa-phone text-warning"></i></span> <a href="tel:+918248477166" class="gray link">+91 8248477166</a></li>
+                  <li class="gray m-2 d-flex"><span><i class="fa-regular fa-envelope text-warning"></i></span><a href="#Contact-section" class="gray link">mathiyarasu.m0607@gmail.com</a></li>
+                  <li class="gray m-2 d-flex"><span><i class="fa-brands fa-whatsapp text-warning"></i></span> <a href="https://wa.me/918248477166" class="gray link">Whatsapp</a></li>
+               </ul>
+            </div>
+         </div>
+      </div>
+      <!-- copy rights -->
+      <div class="container mt-5">
+         <p class="text-center gray mt-5 pt-3 Copyright">Copyright © 2023 All rights reserved | This template is made with  by Mathiyarasu</p>
+      </div>
+      <!-- Optional JavaScript -->
+      <!-- AOS js cdn -->
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <!-- AOS Intialization -->
+      <script>
+         AOS.init();
+       </script>
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+   </body>
+</html>

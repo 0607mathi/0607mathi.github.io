@@ -1,0 +1,445 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+	color: aliceblue;
+	font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+	background-color: #000;
+}
+
+
+.container-title,
+.container .about-me .col span {
+	text-transform: capitalize;
+	font-weight: 900;
+	font-size: 2.2rem;
+}
+
+/* scroll bar  */
+
+::-webkit-scrollbar {
+	width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #88888859;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #555;
+}
+
+.navbar {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: #000;
+	z-index: 1;
+}
+
+.logo-name {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 900;
+	font-size: x-large;
+}
+
+.logo-name span {
+	animation: flicker 500ms linear;
+}
+
+.logo-name .delay2 {
+	animation-delay: 0.8s;
+}
+
+.logo-name .delay5 {
+	animation-delay: 1.4s;
+}
+
+.logo-name .delay11 {
+	animation-delay: 1.8s;
+}
+
+@keyframes flicker {
+	0% {
+		opacity: 0;
+	}
+
+	10% {
+		opacity: 1;
+	}
+
+	20% {
+		opacity: 0;
+	}
+
+	40% {
+		opacity: 1;
+	}
+
+	50% {
+		opacity: 0;
+	}
+
+	60% {
+		opacity: 1;
+	}
+
+	80% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+ul {
+	margin-right: 3%;
+	gap: 15px
+}
+
+a {
+	font-size: large;
+	color: aliceblue;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 5px;
+}
+
+
+.ancher>div::after {
+	content: '';
+	display: block;
+	width: 0;
+	height: 2px;
+	background: #FFBD39;
+	transition: width .3s ease-in-out;
+}
+
+.ancher>div:hover::after {
+	width: 100%;
+	border-radius: 10px;
+	font-weight: 800;
+}
+
+
+.img-slider {
+	margin-top: 6%;
+}
+
+.discription>h6,
+.discription>h4 {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+}
+
+.mini-dsc {
+	background-image: url("https://www.thetechedvocate.org/wp-content/uploads/2023/05/dark-wallpaper.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* responsive text size */
+/* xs */
+@media screen and (width<=576px) {
+	.container-fluid {
+		padding: 0%;
+	}
+
+	.discription>h6 {
+		font-size: 10px;
+		margin-left: 3%;
+	}
+
+	.discription>h4 {
+		font-size: 2rem;
+		margin-left: 3%;
+	}
+
+	.about * {
+		font-size: 15px;
+		font-family: 'Poppins', sans-serif;
+	}
+
+	.img-slider {
+		margin-top: 17%;
+	}
+
+}
+
+/* sm */
+@media screen and (width>576px) {
+	.container-fluid {
+		padding: 0%;
+	}
+
+	.container-fluid>.name {
+		padding-left: 0%;
+	}
+
+	.container-fluid>.name>.col {
+		font-size: large;
+	}
+
+	.discription>h6 {
+		font-size: 15px;
+		margin-left: 3%;
+	}
+
+	.discription>h4 {
+		font-size: 3rem;
+		margin-left: 3%;
+	}
+
+	.about * {
+		font-size: large;
+		font-family: 'Poppins', sans-serif;
+	}
+
+}
+
+/* md */
+@media screen and (width>=768px) {
+	.container-fluid {
+		padding: 0%;
+	}
+
+	.container-fluid>.name {
+		padding-left: 0%;
+	}
+
+	.container-fluid>.name>.col {
+		font-size: large;
+	}
+
+	.discription>h6 {
+		font-size: 15px;
+		margin-left: 3%;
+	}
+
+	.discription>h4 {
+		font-size: 4rem;
+		margin-left: 3%;
+	}
+}
+
+/* about */
+
+.gray {
+	color: #999999;
+}
+
+/* project work */
+.project-completion {
+	gap: 7px;
+}
+
+/* cv download button */
+.cv-btn a {
+	text-decoration: none;
+	color: aliceblue;
+	font-weight: 400;
+}
+
+.cv-btn:hover {
+	background-color: #FFBD39;
+}
+
+.cv-btn:hover>a {
+	color: #000;
+}
+
+/* resume */
+
+.resume-content {
+	background-color: #1A1A1A;
+}
+
+.resume-content:hover {
+	transform: scale(1.08);
+}
+
+.year {
+	font-weight: 900;
+	font-size: 1.7rem;
+}
+
+.Resume .college-name {
+	text-transform: capitalize;
+	font-size: 1.4rem;
+}
+
+.Resume .university {
+	text-transform: uppercase;
+	font-size: 1rem;
+}
+
+.mec {
+	background-image: url('/assets/images/mec-college-img.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.kmhss-12 {
+	background-image: url('/assets/images/kmhss-12.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+.kmhss-10 {
+	background-image: url('/assets/images/kmhss-10.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.consensus {
+	background-image: url('/assets/images/consensus-acc.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* services */
+.services {
+	justify-content: center;
+	align-items: center;
+	background-color: #1A1A1A;
+}
+
+.services>i,
+.jjsc>i {
+	font-size: 3.5rem;
+	color: #FFBD39;
+}
+
+.services>.jjsc>i {
+	font-size: 3.5rem;
+	color: #FFBD39;
+}
+
+.services p {
+	font-size: 1.2rem;
+}
+
+.services:hover {
+	background-color: #FFBD39;
+	transform: scale(1.08);
+}
+
+.services:hover>i,
+.jjsc>i {
+	color: #000;
+}
+
+.services:hover>.jjsc>i {
+	color: #000;
+}
+
+/* skills */
+.progress {
+	border-radius: 10px 20px 20px 10px;
+	height: 12px;
+	background-color: #1A1A1A;
+}
+
+/* projects */
+
+.our-projects .row .col a {
+	text-decoration: none;
+}
+
+.pro-flex {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	align-items: center;
+	margin: auto;
+}
+
+.pro-bg-color {
+	background-color: #1A1A1A;
+}
+
+.pro-bg-color:hover {
+	transform: scale(1.06);
+}
+
+/* Available page */
+.hire-me {
+	background-image: url('/assets/images/bg_1.jpg');
+	background-position: center;
+	background-size: cover;
+}
+
+/* contacts */
+.contact-me .col {
+	background-color: #1A1A1A;
+}
+
+.contact-me .col:hover {
+	transform: scale(1.06);
+	background-color: #FFBD39;
+}
+
+.contact-me .col a {
+	text-decoration: none;
+}
+
+.contact-me .col a i {
+	font-size: 2rem;
+	color: #FFBD39;
+}
+
+.contact-me .col:hover>a i {
+	color: #000;
+}
+
+.contact-me .col:hover>a .gray {
+	color: aliceblue;
+}
+
+/* links */
+ul li .link {
+	text-decoration: none;
+	color: #999999;
+	font-size: medium;
+}
+
+li {
+	transition: padding-left ease 0.5;
+}
+
+.mt-5 .row .col li:hover {
+	padding-left: 6px;
+}
+
+li:hover>.ani {
+	color: #FFBD39;
+}
+
+.links .row .col ul {
+	list-style: none;
+}
+
+.links .row .col .d-flex {
+	gap: 5px;
+}
+
+/* copyrights */
+
+.Copyright {
+	font-size: small;
+}
