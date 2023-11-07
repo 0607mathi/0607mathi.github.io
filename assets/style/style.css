@@ -287,26 +287,26 @@ a {
 }
 
 .mec {
-	background-image: url('/assets/images/mec-college-img.jpg');
+	background-image: url('../images/mec-college-img.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
 .kmhss-12 {
-	background-image: url('/assets/images/kmhss-12.jpg');
+	background-image: url('../images/kmhss-12.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
 
 .kmhss-10 {
-	background-image: url('/assets/images/kmhss-10.jpg');
+	background-image: url('../images/kmhss-10.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
 .consensus {
-	background-image: url('/assets/images/consensus-acc.jpg');
+	background-image: url('../images/consensus-acc.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -380,7 +380,7 @@ a {
 
 /* Available page */
 .hire-me {
-	background-image: url('/assets/images/bg_1.jpg');
+	background-image: url('../images/bg_1.jpg');
 	background-position: center;
 	background-size: cover;
 }
