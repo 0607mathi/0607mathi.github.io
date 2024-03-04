@@ -245,6 +245,9 @@ a {
 .project-completion {
 	gap: 7px;
 }
+.project-completion>a{
+	text-decoration: none;
+}
 
 /* cv download button */
 .cv-btn a {
